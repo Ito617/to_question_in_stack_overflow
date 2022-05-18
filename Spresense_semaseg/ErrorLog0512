@@ -1,0 +1,76 @@
+```
+14:57:23.312 -> arm_hardfault: PANIC!!! Hard fault: 40000000
+14:57:23.312 -> up_assert: Assertion failed at file:armv7-m/arm_hardfault.c line: 135 task: frame_hdr_thread
+14:57:23.312 -> up_registerdump: R0: 0d0c0260 00000030 0000001f 00000001 0d0c025e 0d0bffe2 00000000 00000000
+14:57:23.312 -> up_registerdump: R8: 00000000 00000000 00000000 00000000 00000030 0d05eb78 0d000621 0d0003ec
+14:57:23.312 -> up_registerdump: xPSR: 01000200 BASEPRI: 000000e0 CONTROL: 00000000
+14:57:23.410 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.410 -> up_dumpstate: sp:     0d032c20
+14:57:23.410 -> up_dumpstate: IRQ stack:
+14:57:23.410 -> up_dumpstate:   base: 0d032480
+14:57:23.410 -> up_dumpstate:   size: 00000800
+14:57:23.410 -> up_dumpstate:   used: 00000198
+14:57:23.410 -> up_stackdump: 0d032c20: 00000087 0d03a2d8 00000080 0d034d70 0d05eaa4 00000003 00000000 00000000
+14:57:23.410 -> up_stackdump: 0d032c40: 00000000 00000000 00000000 0d0086a1 0d00a70b 0d007297 0d007275 0d01327f
+14:57:23.410 -> up_stackdump: 0d032c60: 000000e0 0d0080fd 000000e0 0d05eaa4 0d0bffe2 00000000 00000000 0d0076db
+14:57:23.410 -> up_dumpstate: sp:     0d05eb78
+14:57:23.410 -> up_dumpstate: User stack:
+14:57:23.410 -> up_dumpstate:   base: 0d05e3e8
+14:57:23.410 -> up_dumpstate:   size: 00000800
+14:57:23.410 -> up_dumpstate:   used: 000001e4
+14:57:23.410 -> up_stackdump: 0d05eb60: 427c0000 3d042108 3c546894 3f4ccccd 80000010 00000000 00000000 0d05f1e0
+14:57:23.410 -> up_stackdump: 0d05eb80: 00000030 0d000621 00000000 000000e5 0000001c 0000001c 00000006 00000000
+14:57:23.410 -> up_stackdump: 0d05eba0: 00000000 00000000 0d084a00 0d04bdc4 00000310 deadbe00 0d031880 0d03189e
+14:57:23.410 -> up_stackdump: 0d05ebc0: 0d0004dd 0d001195 0d03a360 0d05f1a0 00000000 00000000 00000000 0d0086ed
+14:57:23.410 -> up_stackdump: 0d05ebe0: 0d0086e5 00000000 00000190 80000820 0d037010 0d036340 0d041fc0 6666000a
+14:57:23.410 -> up_taskdump: Idle Task: PID=0 Stack Used=460 of 1000
+14:57:23.448 -> up_registerdump: R0: 00000000 0d033d24 0d039744 00000000 00000000 0d033ca0 0d034dc2 00000000
+14:57:23.448 -> up_registerdump: R8: 0d033df8 17d2412b ec5dfdf0 64715039 00000000 0d035840 0d01314b 0d018986
+14:57:23.448 -> up_registerdump: xPSR: 41000000 BASEPRI: 000000e0 CONTROL: 00000000
+14:57:23.448 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.455 -> up_taskdump: hpwork: PID=1 Stack Used=604 of 2016
+14:57:23.477 -> up_registerdump: R0: 00000002 0d0363c4 0d033d24 0d0363c4 0d036340 00000080 0d034dd8 00000000
+14:57:23.477 -> up_registerdump: R8: 0d034de0 00000000 00000000 00000000 01ff0000 0d036fc0 0d013faf 0d01abb4
+14:57:23.477 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.477 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.477 -> up_taskdump: lpwork: PID=2 Stack Used=268 of 2016
+14:57:23.477 -> up_registerdump: R0: 00000002 0d037094 0d037d64 0d037094 0d037010 00000080 0d034de4 00000000
+14:57:23.511 -> up_registerdump: R8: 0d034dec 00000000 00000000 00000000 00000000 0d037c90 0d013faf 0d01abb4
+14:57:23.511 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.511 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.511 -> up_taskdump: lpwork: PID=3 Stack Used=268 of 2016
+14:57:23.511 -> up_registerdump: R0: 00000002 0d037d64 0d038a34 0d037d64 0d037ce0 00000080 0d034de4 00000000
+14:57:23.544 -> up_registerdump: R8: 0d034dec 00000000 00000000 00000000 00000000 0d038960 0d013faf 0d01abb4
+14:57:23.544 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.544 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.544 -> up_taskdump: lpwork: PID=4 Stack Used=268 of 2016
+14:57:23.544 -> up_registerdump: R0: 00000002 0d038a34 0d033d24 0d038a34 0d0389b0 00000080 0d034de4 00000000
+14:57:23.544 -> up_registerdump: R8: 0d034dec 00000000 00000000 00000000 00000000 0d039630 0d013faf 0d01abb4
+14:57:23.577 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.577 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.577 -> up_taskdump: cxd56_pm_task: PID=6 Stack Used=400 of 1000
+14:57:23.577 -> up_registerdump: R0: 00000002 0d03a794 0d033d24 0d03a794 0d03d6c0 0d03af4c 0d03a710 00000000
+14:57:23.577 -> up_registerdump: R8: 0d03d6c4 0d034d90 00000000 00000000 00000064 0d03af28 0d013651 0d01abb4
+14:57:23.610 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.610 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.610 -> up_taskdump: gnss_receiver: PID=7 Stack Used=284 of 1000
+14:57:23.610 -> up_registerdump: R0: 00000002 0d041334 0d039744 0d041334 0d0412b0 000000e0 0d041b50 0d041208
+14:57:23.610 -> up_registerdump: R8: 00000000 00000000 00000000 00000000 00000000 0d041b20 0d013faf 0d01abb4
+14:57:23.644 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.644 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.644 -> up_taskdump: init: PID=8 Stack Used=1204 of 8176
+14:57:23.644 -> up_registerdump: R0: 0d044278 00025800 00007fff 00000000 0d02fae0 0d02fae0 0d000000 0d02facc
+14:57:23.644 -> up_registerdump: R8: 00000000 00000000 00000000 00000000 00000000 0d0442b0 0d003259 0d003050
+14:57:23.644 -> up_registerdump: xPSR: 61000000 BASEPRI: 000000e0 CONTROL: 00000000
+14:57:23.677 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.677 -> up_taskdump: frame_hdr_thread: PID=9 Stack Used=484 of 2048
+14:57:23.677 -> up_registerdump: R0: 00000002 0d03a204 0d041eb4 0d03a204 0d03a180 000000e0 0000013f 00000001
+14:57:23.677 -> up_registerdump: R8: 0d05f1e0 00000000 00000000 00000000 0000001c 0d05eb40 0d013faf 0d01abb4
+14:57:23.677 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.710 -> up_registerdump: EXC_RETURN: ffffffe9
+14:57:23.710 -> up_taskdump: cam_dq_thread: PID=10 Stack Used=564 of 1024
+14:57:23.710 -> up_registerdump: R0: 00000002 0d05ec74 0d03a204 0d05ec74 0d05ebf0 000000e0 0d03d500 000000e0
+14:57:23.710 -> up_registerdump: R8: 0d03d548 0d03d510 00000080 00000000 00000000 0d05f038 0d013faf 0d01abb4
+14:57:23.710 -> up_registerdump: xPSR: 01000000 BASEPRI: 00000080 CONTROL: 00000000
+14:57:23.710 -> up_registerdump: EXC_RETURN: ffffffe9
+```
